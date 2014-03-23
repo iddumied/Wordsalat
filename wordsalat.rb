@@ -101,7 +101,7 @@ class Wordsallad
           end
         end
       }
-    rescue
+    rescue Exception => e
       @columns += 1
       @row += 1
       puts "Woertersallat berechnet mit"
